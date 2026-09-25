@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aldi Age Hasani</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container nav-wrapper">
+      <div class="brand">ALDI AGE HASANI</div>
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+  <section class="hero" id="home">
+    <div class="container center">
+      <img src="assets/Itsme.jpeg" alt="Foto Profil" class="profile-img" />
+      <h2 class="typewriter">Hai, saya Aldi Age Hasani <br><span class="highlight"> Web Developer</span></h2>
+      <a href="#contact" class="btn">Hubungi Saya</a>
+    </div>
+  </section>
+
+
+
+  <section id="about" class="section about-section">
+    <div class="about-container">
+      <!-- Foto di kiri -->
+      <div class="about-image">
+        <img src="assets/aldi2.jpeg" alt="Aldi Age Hasani - Web Developer" class="about-photo" />
+      </div>
+
+      <!-- Teks di kanan -->
+      <div class="about-text">
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="about-intro">
+          Halo! Saya <span class="highlight-name">Aldi Age Hasani</span>, seorang <strong>Web Developer</strong>
+          yang berfokus pada pengembangan aplikasi modern, scalable, dan berorientasi pada pengalaman pengguna.
+        </p>
+        <p class="about-desc">
+          Saya memiliki keahlian dalam membangun aplikasi berbasis <strong>Laravel</strong>, baik dari sisi
+          <em>frontend</em> maupun <em>backend</em>. Dengan pemahaman mendalam terhadap arsitektur MVC
+          dan RESTful API, saya telah mengerjakan berbagai proyek seperti <strong>sistem informasi</strong>,
+          <strong>dashboard analitik</strong>, hingga <strong>aplikasi kustom</strong>.
+        </p>
+        <p class="about-desc">
+          Saya terus berkembang melalui pembelajaran teknologi baru dan menerapkan prinsip <strong>UI/UX</strong>
+          untuk menciptakan pengalaman pengguna yang optimal.
+        </p>
+        <div class="about-buttons">
+          <a href="#portfolio" class="btn btn-primary">Lihat Portofolio</a>
+          <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="portfolio" class="section portfolio-section">
+    <div class="overlay-bg"></div>
+    <div class="container">
+      <h2 class="section-title text-center">Portofolio</h2>
+      <p class="section-subtitle text-center">
+        Beberapa proyek yang telah saya kerjakan, mulai dari sistem informasi hingga desain landing page modern.
+      </p>
+
+      <!-- Portfolio Grid -->
+      <div class="portfolio-grid">
+        <!-- Card 1 -->
+        <div class="portfolio-card">
+          <div class="portfolio-img">
+            <img src="assets/Project1.jpeg" alt="SI Inventory">
+            <div class="overlay">
+              <p>Sistem informasi untuk manajemen stok barang dan gudang, lengkap dengan laporan real-time.</p>
+            </div>
+          </div>
+          <h3>SI Inventory</h3>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="portfolio-card">
+          <div class="portfolio-img">
+            <img src="assets/Project2.png" alt="SI Akuntansi">
+            <div class="overlay">
+              <p>Aplikasi akuntansi yang membantu pengelolaan keuangan dengan proses otomatisasi jurnal.</p>
+            </div>
+          </div>
+          <h3>SI Akuntansi</h3>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="portfolio-card">
+          <div class="portfolio-img">
+            <img src="assets/Project3.png" alt="Landing Page">
+            <div class="overlay">
+              <p>Landing page profesional dengan desain responsif dan optimasi SEO untuk brand awareness.</p>
+            </div>
+          </div>
+          <h3>Landing Page</h3>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="portfolio-actions text-center">
+        <a href="assets/CV_Aldi_Age_Hasani.pdf" download class="btn btn-download">
+          📄 Download CV
+        </a>
+        <a href="#skills" class="btn btn-portfolio">
+          Skill saya
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section section-skills">
+    <div class="container">
+      <h2 class="section-title">Keahlian Saya</h2>
+      <div class="skills-grid-3">
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+            alt="Laravel" width="60" />
+
+          <h3>Laravel</h3>
+
+          <div class="progress-bar">
+            <div class="progress" data-percentage="90" style="width:90%;"></div>
+          </div>
+
+          <span class="percentage">90%</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+          <h3>HTML5</h3>
+          <div class="progress-bar">
+            <div class="progress" data-percentage="95"></div>
+          </div>
+          <span class="percentage">95%</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+          <h3>CSS3</h3>
+          <div class="progress-bar">
+            <div class="progress" data-percentage="85"></div>
+          </div>
+          <span class="percentage">85%</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            alt="JavaScript" />
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" data-percentage="80"></div>
+          </div>
+          <span class="percentage">80%</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+          <h3>MySQL</h3>
+          <div class="progress-bar">
+            <div class="progress" data-percentage="88"></div>
+          </div>
+          <span class="percentage">88%</span>
+        </div>
+
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+          <h3>Git</h3>
+          <div class="progress-bar">
+            <div class="progress" data-percentage="75"></div>
+          </div>
+          <span class="percentage">75%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="section-title text-center">Hubungi Saya</h2>
+      <p class="section-subtitle text-center">
+        Saya senang mendengar dari Anda! Silakan hubungi saya melalui form berikut atau media sosial saya.
+      </p>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Informasi Kontak</h3>
+          <p><strong>Email:</strong> <a href="mailto:aldiage39@gmail.com">aldiage39@gmail.com</a></p>
+          <p><strong>Telepon:</strong> <a href="tel:+6281234567890">+62 857-7237-1723</a></p>
+          <p><strong>Alamat:</strong> Surabaya, Jawa Tengah, Indonesia</p>
+
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/aldiagehasani" target="_blank" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/aldiage" target="_blank" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://instagram.com/aldiage" target="_blank" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" placeholder="Tulis pesan Anda..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 Aldi Age Hasani</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<script>
+  const toggleBtn = document.getElementById('menuToggle');
+  const navWrapper = document.querySelector('.nav-wrapper');
+
+  toggleBtn.addEventListener('click', () => {
+    navWrapper.classList.toggle('open');
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const progressBars = document.querySelectorAll(".progress");
+
+    progressBars.forEach(bar => {
+      const percentage = bar.getAttribute("data-percentage");
+      setTimeout(() => {
+        bar.style.width = percentage + "%";
+      }, 300);
+    });
+  });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll(".section");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+
+    });
+  }, { 
+    threshold: 0.2   // lebih smooth munculnya
+  });
+
+  sections.forEach(section => {
+    observer.observe(section);
+  });
+});
+</script>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+
+    let phoneNumber = "6285772371723"; // GANTI dengan nomor WA kamu (pakai 62, jangan 0)
+
+    let text = `Halo, saya ${name}%0AEmail: ${email}%0APesan: ${message}`;
+
+    window.open(`https://wa.me/${phoneNumber}?text=${text}`, "_blank");
+});
+</script>
